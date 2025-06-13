@@ -8,6 +8,9 @@ from dotenv import load_dotenv
 script_dir = os.path.dirname(__file__)
 env_path = os.path.join(script_dir, '.env')
 
+def test():
+    print("test")
+
 def timeout(seconds=10, error_message='Function call timed out'):
     def decorator(func):
         @wraps(func)
