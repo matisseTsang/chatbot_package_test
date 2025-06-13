@@ -1,1 +1,2 @@
-print(123)
+def update():
+    print("It seem updated")
